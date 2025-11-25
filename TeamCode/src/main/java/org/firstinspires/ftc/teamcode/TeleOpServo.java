@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.Servo;
 
 @TeleOp(name = "TeleOpServo", group = "TeleOp")
-public class TeleOpServo extends LinearOpMode {
+public class  TeleOpServo extends LinearOpMode {
 
     // --- มอเตอร์ขับเคลื่อน Mecanum ---
     DcMotor M_LF, M_RF, M_LR, M_RR;
